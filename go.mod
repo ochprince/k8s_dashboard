@@ -3,7 +3,7 @@ module github.com/kubernetes/dashboard
 go 1.12
 
 require (
-	github.com/docker/distribution v2.7.0+incompatible
+	github.com/docker/distribution v2.8.0+incompatible
 	github.com/docker/spdystream v0.0.0-20181023171402-6480d4af844c // indirect
 	github.com/elazarl/goproxy v0.0.0-20190421051319-9d40249d3c2f // indirect
 	github.com/elazarl/goproxy/ext v0.0.0-20190421051319-9d40249d3c2f // indirect
@@ -26,6 +26,5 @@ require (
 	k8s.io/apiextensions-apiserver v0.0.0-20190918161926-8f644eb6e783
 	k8s.io/apimachinery v0.17.2
 	k8s.io/client-go v0.17.2
-	k8s.io/code-generator v0.17.2 // indirect
 	k8s.io/heapster v1.5.4
 )
